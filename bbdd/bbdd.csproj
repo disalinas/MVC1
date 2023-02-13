@@ -57,6 +57,7 @@
     <Compile Include="Models\estancia.cs">
       <DependentUpon>SampleModel2.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Partials\SampleContext2.cs" />
     <Compile Include="Models\SampleModel2.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

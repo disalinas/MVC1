@@ -10,11 +10,6 @@ namespace WebApplication2.Controllers
     {
         public ActionResult Index()
         {
-            using (var context = new Models.SampleContext1())
-            {
-                var aux = context.tipo_vehiculo.ToList();
-            }
-
             new bbdd.Class1().Ejecutar();
             return View();
         }
